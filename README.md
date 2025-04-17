@@ -44,13 +44,13 @@ This repository includes the design and SNM analysis of **10-transistor (10T)** 
 
 ![image alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/sram_10t.jpg?raw=true)
 
-### 🔹 Optimized 10T SRAM Cell
+### 🔹 Opetaion of 10T SRAM Cell
 
-![Optimized 10T SRAM Cell](op_sram10t.jpg)
+![image alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/op_sram10t.jpg?raw=true)
 
 ### 🔹 8T SRAM Cell
 
-![8T SRAM Cell](sram_8t.jpg)
+![image alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_8t/sram_8t.jpg?raw=true)
 
 ---
 
@@ -62,15 +62,15 @@ Static Noise Margin (SNM) is the key indicator of memory stability. It is determ
 
 ### 🔹 SNM - 10T SRAM
 
-![SNM Plot - 10T](sram10t_snm.jpg)
+![image alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/sram10t_snm.jpg?raw=true)
 
-### 🔹 SNM - Optimized 10T SRAM
+### 🔹 SNM - SNM Plot 10T SRAM
 
-![SNM Plot - Optimized 10T](op_sram10t_snm_3.jpg)
+![immage alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/op_sram10t_snm_3.jpg?raw=true)
 
 ### 🔹 SNM - 8T SRAM
 
-![SNM Plot - 8T](sram8t_snm.jpg)
+![image alt](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_8t/op_sram8t_snm_2.jpg?raw=true)
 
 ---
 
@@ -97,11 +97,9 @@ Static Noise Margin (SNM) is the key indicator of memory stability. It is determ
 
 For questions or collaboration:
 
-- 📧 [Your Email]
-- 🌐 [Your LinkedIn or Website]
+- 📧 [devbakura4@gmail.com](devbakura4@gmail.com)
+- 🌐 [[Your LinkedIn or Website](https://www.linkedin.com/in/neil-rudra-mukherjee-668716248/)]
 
 ---
 
-## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE).
