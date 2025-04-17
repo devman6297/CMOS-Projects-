@@ -12,8 +12,8 @@ This repository includes the design and SNM analysis of **10-transistor (10T)** 
 | `op_sram10t.jpg`          | Schematic of an optimized 10T SRAM cell variant. |
 | `sram10t_snm.jpg`         | SNM butterfly plot for the base 10T SRAM cell. |
 | `op_sram10t_snm_3.jpg`    | SNM butterfly plot for the optimized 10T SRAM cell. |
-| `sram_8t.jpg` *(optional)*| Schematic of the standard 8T SRAM cell for comparison. *(To be added)* |
-| `sram8t_snm.jpg` *(optional)* | SNM butterfly plot for the 8T SRAM cell. *(To be added)* |
+| `sram_8t.jpg`             | Schematic of the standard 8T SRAM cell. |
+| `sram8t_snm.jpg`          | SNM butterfly plot for the 8T SRAM cell. |
 
 ---
 
@@ -38,42 +38,70 @@ This repository includes the design and SNM analysis of **10-transistor (10T)** 
 
 ---
 
+## 📐 Schematics
+
+### 🔹 10T SRAM Cell
+
+![10T SRAM Cell](sram_10t.jpg)
+
+### 🔹 Optimized 10T SRAM Cell
+
+![Optimized 10T SRAM Cell](op_sram10t.jpg)
+
+### 🔹 8T SRAM Cell
+
+![8T SRAM Cell](sram_8t.jpg)
+
+---
+
 ## 📈 SNM Analysis
 
 Static Noise Margin (SNM) is the key indicator of memory stability. It is determined using the **butterfly curve method**, derived from voltage transfer characteristics (VTC) of cross-coupled inverters.
 
 > 🟩 A larger SNM square indicates better stability and noise resilience.
 
-### 🧪 Summary Table
+### 🔹 SNM - 10T SRAM
 
-| SRAM Type | SNM (Read) | SNM (Write) | Notes |
-|-----------|------------|-------------|-------|
-| **10T Base** | Moderate | Tight | Decoupled read improves stability |
-| **10T Optimized** | Improved | Improved | Additional transistors enhance SNM |
-| **8T** | TBD | TBD | To be added in future analysis |
+![SNM Plot - 10T](sram10t_snm.jpg)
+
+### 🔹 SNM - Optimized 10T SRAM
+
+![SNM Plot - Optimized 10T](op_sram10t_snm_3.jpg)
+
+### 🔹 SNM - 8T SRAM
+
+![SNM Plot - 8T](sram8t_snm.jpg)
+
+---
+
+## 📊 Results Summary
+
+| SRAM Cell Variant | SNM Observations |
+|-------------------|------------------|
+| **10T Base**      | Moderate SNM; good read stability but tighter write margin. |
+| **10T Optimized** | Improved SNM due to better read/write path separation. |
+| **8T SRAM**       | SNM analysis included for future comparison. Typically shows better read SNM than 6T. |
 
 ---
 
 ## ➕ Future Work
 
-- [ ] Add 8T SRAM schematic and SNM plots
-- [ ] Include 6T SRAM baseline for complete comparison
-- [ ] Power and delay analysis
-- [ ] Monte Carlo simulations for process variation tolerance
+- [ ] Add 6T SRAM for baseline reference.
+- [ ] Include layout designs and area comparisons.
+- [ ] Perform Monte Carlo analysis for process variation.
+- [ ] Add power consumption and delay benchmarks.
 
 ---
 
 ## 📬 Contact
 
-For queries, collaboration, or discussions:
+For questions or collaboration:
 
 - 📧 [Your Email]
-- 🌐 [LinkedIn/Personal Website]
+- 🌐 [Your LinkedIn or Website]
 
 ---
 
 ## 📄 License
 
 This repository is licensed under the [MIT License](LICENSE).
-
-
