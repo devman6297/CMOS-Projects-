@@ -74,6 +74,18 @@ Static Noise Margin (SNM) is the key indicator of memory stability. It is determ
 
 ---
 
+## 📦 Microwind Files
+
+You can find the layout design source files here:
+
+- 📁 [`Sramm_10t/10t_layout.msk`](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/10t_layout.msk)
+- 📁 [`Sramm_8t/8t_layout.msk`](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_8t/8t_layout.msk)
+
+> These files can be opened using **Microwind** software for further editing, simulation, and verification.
+ 
+---
+
+
 ## 📊 Results Summary
 
 | SRAM Cell Variant | SNM Observations |
