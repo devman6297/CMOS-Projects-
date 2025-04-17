@@ -42,7 +42,7 @@ This repository includes the design and SNM analysis of **10-transistor (10T)** 
 
 ### 🔹 10T SRAM Cell
 
-![10T SRAM Cell]([sram_10t.jpg](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/sram_10t.jpg?raw=true))
+![image alt]([sram_10t.jpg](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/sram_10t.jpg?raw=true))
 
 ### 🔹 Optimized 10T SRAM Cell
 
