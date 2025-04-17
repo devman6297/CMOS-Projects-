@@ -40,37 +40,35 @@ This repository includes the design and SNM analysis of **10-transistor (10T)** 
 
 ## 📐 Schematics
 
-### 🔹 10T SRAM Cell
+- Desing and Analysis of 8T and 10T SRAM Cell.
+- Perform Static-noise margin analysis of the same refer to this ["Static-noise margin analysis of MOS SRAM cells"](https://ieeexplore.ieee.org/document/1052809) and [Link](https://engineering.purdue.edu/~vlsi/ECE559_Fall09/HW/HW6_Solution.pdf)
 
-![image alt]([sram_10t.jpg](https://github.com/devman6297/CMOS-Projects-/blob/main/Sramm_10t/sram_10t.jpg?raw=true))
+Schematic Diagram :
+- Transient Analysis of 8T SRAM Cell </br>
+<img src = "lab4/sram_8t/sram_8t.jpg" width="50%" height="50%"> </br>
+- Static-noise margin analysis of 6T SRAM Cell </br>
+<img src = "lab4/sram_8t/sram8t_snm.jpg" width="50%" height="50%"> </br>
 
-### 🔹 Optimized 10T SRAM Cell
+- Transient Analysis of 10T SRAM Cell </br>
+<img src = "lab4/sram_10t/sram_10t.jpg" width="50%" height="50%"> </br>
+- Static-noise margin analysis of 10T SRAM Cell </br>
+<img src = "lab4/sram_10t/sram10t_snm.jpg" width="50%" height="50%"> </br>
 
-![Optimized 10T SRAM Cell](op_sram10t.jpg)
+Resultant Waveform :
+- Transient Analysis of 8T SRAM Cell </br>
+<img src = "lab4/sram_8t/op_sram8t.jpg" width="70%" height="70%"> </br>
+- Static-noise margin analysis of 8T SRAM Cell </br>
+<img src = "lab4/sram_8t/op_sram8t_snm.jpg" width="70%" height="70%"> </br>
+<img src = "lab4/sram_8t/op_sram8t_snm_1.jpg" width="70%" height="70%"> </br>
+<img src = "lab4/sram_8t/op_sram8t_snm_2.jpg" width="70%" height="70%"> </br>
 
-### 🔹 8T SRAM Cell
+- Transient Analysis of 10T SRAM Cell </br>
+<img src = "lab4/sram_10t/op_sram10t.jpg" width="70%" height="70%"> </br>
+- Static-noise margin analysis of 10T SRAM Cell </br>
+<img src = "lab4/sram_10t/op_sram10t_snm_1_1.jpg" width="70%" height="70%"> </br>
+<img src = "lab4/sram_10t/op_sram_10t_snm_2_1.jpg" width="70%" height="70%"> </br>
+<img src = "lab4/sram_10t/op_sram10t_snm_3.jpg" width="70%" height="70%"> </br>
 
-![8T SRAM Cell](sram_8t.jpg)
-
----
-
-## 📈 SNM Analysis
-
-Static Noise Margin (SNM) is the key indicator of memory stability. It is determined using the **butterfly curve method**, derived from voltage transfer characteristics (VTC) of cross-coupled inverters.
-
-> 🟩 A larger SNM square indicates better stability and noise resilience.
-
-### 🔹 SNM - 10T SRAM
-
-![SNM Plot - 10T](sram10t_snm.jpg)
-
-### 🔹 SNM - Optimized 10T SRAM
-
-![SNM Plot - Optimized 10T](op_sram10t_snm_3.jpg)
-
-### 🔹 SNM - 8T SRAM
-
-![SNM Plot - 8T](sram8t_snm.jpg)
 
 ---
 
